@@ -263,8 +263,7 @@ static const pop_entry pop_swamp[] =
   {  1,  4,  825, FLAT, MONS_TYRANT_LEECH },
   {  1,  4,  600, FLAT, MONS_SWAMP_DRAGON },
   {  1,  4,  335, FLAT, MONS_NO_MONSTER }, //was insubstantial wisp
-  {  1,  4,  435, FLAT, MONS_WASP },
-  {  1,  4,  384, FLAT, MONS_HORNET },
+  {  1,  4,  684, FLAT, MONS_HORNET },
   {  1,  4,  100, FALL, MONS_KOMODO_DRAGON },
   {  1,  3,  245, RISE, MONS_TENTACLED_MONSTROSITY },
   {  1,  3,  525, RISE, MONS_THORN_HUNTER },
@@ -328,7 +327,6 @@ static const pop_entry pop_spider[] =
   {  1,  3,  800, FLAT, MONS_REDBACK },
   {  1,  3,  245, FLAT, MONS_NO_MONSTER}, //don't generate so many redbacks
   {  1,  3,  550, FLAT, MONS_ORB_SPIDER },
-  {  1,  3,   52, FLAT, MONS_WASP },
   {  1,  4,  100, FLAT, MONS_TORPOR_SNAIL },
   {  1,  4,  190, SEMI, MONS_EMPEROR_SCORPION },
   {  1,  5,  155, SEMI, MONS_MOTH_OF_WRATH },
