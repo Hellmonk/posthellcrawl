@@ -113,7 +113,7 @@ ENDMAP
 NAME:   minmay_swamp_entry_reptiles
 TAGS:   swamp_entry
 WEIGHT: 5
-MONS:   swamp drake / komodo dragon / hydra / swamp dragon
+MONS:   komodo dragon / hydra / swamp dragon
 MONS:   crocodile / iguana / frilled lizard
 KFEAT:  O = enter_swamp
 MARKER: O = lua:fog_machine { \
@@ -253,7 +253,7 @@ ENDMAP
 
 NAME:   swamp_pool5
 TAGS:   no_pool_fixup allow_dup extra luniq_pool no_exits
-KMONS:  1 = patrolling swamp drake
+KMONS:  1 = patrolling swamp dragon
 KFEAT:  1 = deep_water
 WEIGHT: 500
 SUBST:  "=ttttw, '=ttW
@@ -988,7 +988,7 @@ NAME:    st_swamp_ruins_1
 DEPTH:   Swamp, !Swamp:$
 KMONS:   1 = hydra
 KMONS:   2 = swamp dragon
-KMONS:   3 = swamp drake
+KMONS:   3 = swamp dragon
 KFEAT:   123 = shallow_water
 SUBST:   . = wwwWWW...t, c = c:17 .:1 t:1 w:1 W:1, C:GC., G=GG., C=cc.
 SUBST:   0:45, 4=1112...., 5=1222...., 6=3.
@@ -1012,7 +1012,7 @@ NAME:    st_swamp_ruins_2
 DEPTH:   Swamp, !Swamp:$
 KMONS:   1 = hydra
 KMONS:   2 = swamp dragon
-KMONS:   3 = swamp drake
+KMONS:   3 = swamp dragon
 KFEAT:   123 = shallow_water
 SUBST:   . = wwwWWW...t, c = c:15 .:1 t:1 w:1 W:1, C=c.
 SUBST:   0:45, 4=11123....., 5=12223.....
@@ -1037,7 +1037,7 @@ NAME:    st_swamp_ruins_3
 DEPTH:   Swamp, !Swamp:$
 KMONS:   1 = hydra
 KMONS:   2 = swamp dragon
-KMONS:   3 = swamp drake
+KMONS:   3 = swamp dragon
 KFEAT:   123 = shallow_water
 SHUFFLE: cC
 SUBST:   . = wwwWWW...t, c = c:12 .:1 t:1 w:1 W:1, C:GC., G=GG., C=cc.
@@ -1058,7 +1058,7 @@ NAME:    st_swamp_ruins_4
 DEPTH:   Swamp, !Swamp:$
 KMONS:   1 = hydra
 KMONS:   2 = swamp dragon
-KMONS:   3 = swamp drake
+KMONS:   3 = swamp dragon
 KFEAT:   123 = shallow_water
 SHUFFLE: cC
 SUBST:   . = wwwWWW...t, c = c:12 .:1 t:1 w:1 W:1, C=c., *=**%
@@ -1207,11 +1207,11 @@ ENDMAP
 NAME: nicolae_swamp_necromancer_hut
 SUBST: q = tW., r = W., W = zWW
 MONS: necromancer
-KMONS: z = crocodile zombie / swamp drake zombie / swamp worm zombie / \
+KMONS: z = crocodile zombie / swamp dragon zombie / swamp worm zombie / \
         water moccasin zombie / swamp dragon zombie / \
         komodo dragon zombie / hornet zombie / alligator zombie / \
         hydra zombie / tyrant leech zombie / hydra zombie / \
-        alligator simulacrum w:1 / swamp drake simulacrum w:1 / \
+        alligator simulacrum w:1 / swamp dragon simulacrum w:1 / \
         swamp dragon simulacrum w:1 / hydra simulacrum w:1
 KFEAT: z = shallow_water
 MAP
@@ -1307,7 +1307,7 @@ TAGS: patrolling transparent
 SUBST: T = t., B = tt_
 NSUBST: d = D / d
 KMONS: D = swamp dragon
-KMONS: d = swamp drake w:12 / nothing w:3
+KMONS: d = acid dragon w:12 / nothing w:3
 MAP
         BBBBBB
       .TtttttBB
@@ -1765,7 +1765,7 @@ PLACE:   Swamp:$
 WEIGHT:  20
 ORIENT:  float
 TAGS:    no_rotate
-MONS:    swamp dragon, swamp drake, hydra
+MONS:    swamp dragon, acid dragon, hydra
 MONS:    thorn hunter / shambling mangrove / spriggan druid
 KMONS:   O = fire dragon w:1 / ice dragon w:1 / hydra w:18
 KMONS:   & = the lernaean hydra
@@ -1806,7 +1806,7 @@ TAGS:    transparent no_monster_gen no_pool_fixup no_rotate
 PLACE:   Swamp:$
 WEIGHT:  20
 ORIENT:  float
-MONS:    swamp dragon, swamp drake, hydra, lindwurm, rime drake, bog body
+MONS:    swamp dragon, acid dragon, hydra, lindwurm, rime drake, bog body
 MONS:    thorn hunter / shambling mangrove / spriggan druid
 KMONS:   O = fire dragon w:2 / hydra w:18
 KMONS:   P = ice dragon w:2 / hydra w:18
@@ -1848,7 +1848,7 @@ TAGS:    no_pool_fixup
 PLACE:   Swamp:$
 WEIGHT:  20
 ORIENT:  southeast
-MONS:    swamp dragon, hydra, swamp drake
+MONS:    swamp dragon, hydra, acid dragon
 MONS:    the lernaean hydra
 SHUFFLE: ab, 12
 SUBST:   a = c, b = ', " = ttw, ` = tt`
@@ -1897,7 +1897,7 @@ TAGS:    transparent no_pool_fixup no_rotate
 PLACE:   Swamp:$
 ORIENT:  float
 MONS:    fire dragon, lindwurm / fire crab w:8, swamp dragon / hydra w:12
-MONS:    swamp drake / steam dragon w:4
+MONS:    acid dragon / steam dragon w:4
 SUBST:   L = ll., ' = t., " = t
 MARKER:  R = lua:fog_machine { cloud_type = "flame", pow_min = 8, \
              pow_max = 12, delay_min = 40, delay_max = 70, \
@@ -1936,7 +1936,7 @@ TAGS:    no_pool_fixup no_rotate transparent
 PLACE:   Swamp:$
 ORIENT:  southeast
 MONS:    ice dragon, hydra simulacrum, freezing wraith, azure jelly
-KMONS:   ? = swamp worm simulacrum / swamp drake simulacrum
+KMONS:   ? = swamp worm simulacrum / acid dragon simulacrum
 KFEAT:   Q? = deep_water
 NSUBST:  O = 1:O / *:Y
 SUBST:   X = tt., Y = Wwwww., 4 = 1:15 4
@@ -1990,7 +1990,7 @@ PLACE:   Swamp:$
 ORIENT:  southeast
 MONS:    spectral swamp dragon / spectral hydra
 MONS:    hydra zombie / swamp dragon zombie
-MONS:    spectral swamp drake / swamp drake zombie
+MONS:    spectral acid dragon
 MONS:    death drake / vampire mosquito band / w:5 oklob plant
 MONS:    phantom, bog body
 KMONS:   8 = phantasmal warrior
@@ -2101,7 +2101,7 @@ NAME:    grunt_swamp_rune_castle
 TAGS:    no_monster_gen no_trap_gen transparent
 PLACE:   Swamp:$
 ORIENT:  float
-MONS:    swamp dragon, swamp drake, hydra, bog body
+MONS:    swamp dragon, hydra, bog body
 MONS:    fungus w:12 / plant w:5 / bush w:1
 KMONS:   d = patrolling the lernaean hydra / hydra w:1, hydra
 KMONS:   ef = patrolling hydra
@@ -2147,7 +2147,7 @@ ORIENT:  float
 WEIGHT:  20
 SUBST:   1 = 111''
 SUBST:   % = %'
-KMONS:   1 =  swamp dragon / swamp drake / hydra w:15 / bog body w:5
+KMONS:   1 =  swamp dragon / hydra w:15 / bog body w:5
 SUBST:   ' = .....WWW, - = ..wwwWW, T = .wWtt, C = ccct
 KFEAT:   1 =  floor / floor / shallow_water
 KITEM:   O = decaying rune of Zot

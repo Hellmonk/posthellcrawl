@@ -509,8 +509,8 @@ NAME:  pond
 TAGS:  no_monster_gen
 DEPTH: D:10-, Lair
 MONS:  plant w:30 / fungus
-MONS:  bullfrog w:30 / water moccasin / iguana / swamp drake w:2
-MONS:  vampire mosquito / swamp drake w:1
+MONS:  bullfrog w:30 / water moccasin / iguana / steam dragon w:2
+MONS:  vampire mosquito / acid dragon w:1
 KMONS: ? = plant
 SUBST: ! : w.
 SUBST: 2 : 23
@@ -1573,7 +1573,7 @@ NAME:    hangedman_minor_magic
 TAGS:    no_monster_gen
 DEPTH:   D:9-11, Orc
 MONS:    crimson imp, white imp, shadow imp, iron imp
-MONS:    orc, orc wizard w:39 / Blork the orc w:1, swamp drake
+MONS:    orc, orc wizard w:39 / Blork the orc w:1, steam dragon
 KMONS:   0 = orc
 KMONS:   89 = deep elf mage
 KITEM:   8d = nothing

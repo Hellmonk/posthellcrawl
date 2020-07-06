@@ -603,8 +603,8 @@ ORIENT: southeast
 TAGS:   no_monster_gen
 DEPTH:  Depths, !Depths:$
 MONS:   golden dragon, fungus, plant, oklob plant
-KMONS:  6 = rime drake / swamp drake / lindwurm
-KMONS:  D = rime drake w:5 / swamp drake w:5 / death drake / lindwurm w:5
+KMONS:  6 = rime drake / acid dragon / lindwurm
+KMONS:  D = rime drake w:5 / acid dragon w:5 / death drake / lindwurm w:5
 KITEM:  D = nothing
 SUBST:  $ = $|
 SUBST:  f : A B

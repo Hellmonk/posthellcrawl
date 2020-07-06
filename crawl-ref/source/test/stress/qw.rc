@@ -1268,10 +1268,6 @@ local elec_resistance_monsters = {
   {100, "electric golem"},
 } -- hack
 
-local pois_resistance_monsters = {
-  {100, "swamp drake"},
-} -- hack
-
 -----------------------------------------
 -- player functions
 

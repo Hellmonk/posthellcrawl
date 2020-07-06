@@ -349,7 +349,7 @@ ENDMAP
 NAME:    erik_lair_dragon
 TAGS:    lair_entry no_rotate
 ORIENT:  float
-MONS:    steam dragon / acid dragon / swamp drake
+MONS:    steam dragon / acid dragon
 MONS:    w:20 iguana / komodo dragon / crocodile / nothing
 SUBST:   ? = x.c
 SHUFFLE: %*RO
@@ -708,7 +708,7 @@ DEPTH:  Lair
 TAGS:   allow_dup no_monster_gen no_item_gen
 MONS:   ice dragon / fire dragon / swamp dragon / anaconda w:5
 MONS:   swamp dragon / hydra / catoblepas
-MONS:   swamp drake / w:20 spiny frog / w:20 komodo dragon /\
+MONS:   w:20 spiny frog / w:20 komodo dragon /\
         w:20 basilisk / w:20 black mamba
 MONS:   plant
 : if you.absdepth() >= 17 then
@@ -872,7 +872,7 @@ NAME:   guppyfry_lair_drakes
 DEPTH:  Lair
 WEIGHT: 15
 : if you.depth() > 3 and crawl.coinflip() then
-MONS:   rime drake / swamp drake / acid dragon
+MONS:   rime drake / acid dragon
 MONS:   steam dragon
 MONS:   plant
 SUBST:  -_ = wwWW..%
@@ -2769,7 +2769,7 @@ NAME:   guppyfry_lair_end_dragon
 PLACE:  Lair:$
 TAGS:   patrolling no_monster_gen
 ORIENT: southeast
-KMONS:  1 = rime drake / swamp drake / acid dragon / steam dragon
+KMONS:  1 = rime drake / acid dragon / steam dragon
 KMONS:  2 = fire dragon
 KMONS:  3 = plant
 KMONS:  4 = basilisk / komodo dragon

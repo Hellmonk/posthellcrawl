@@ -157,8 +157,7 @@ NAME:    erik_orc_1
 TAGS:    orc_entry no_rotate
 ORIENT:  float
 MONS:    orc, orc priest / orc wizard
-MONS:    w:50 orc warrior / ogre, swamp drake
-# The drake's name is Bobby. Since you did ask.
+MONS:    w:50 orc warrior / ogre, steam dragon
 KFEAT:   1 = 1
 SHUFFLE: defO
 KFEAT:   O = enter_orcish_mines

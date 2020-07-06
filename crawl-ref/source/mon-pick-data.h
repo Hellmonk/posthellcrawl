@@ -257,7 +257,6 @@ static const pop_entry pop_swamp[] =
   {  1,  3,  600, FLAT, MONS_SPINY_FROG },
   {  1,  3,  400, FLAT, MONS_NO_MONSTER}, //remove some spiny frog weight
   {  1,  3,  435, FLAT, MONS_BOG_BODY },
-  {  1,  3,  925, FLAT, MONS_SWAMP_DRAKE },
   {  1,  3,  665, FLAT, MONS_VAMPIRE_MOSQUITO },
   {  1,  4,  915, FLAT, MONS_HYDRA },
   {  1,  4,  825, FLAT, MONS_TYRANT_LEECH },

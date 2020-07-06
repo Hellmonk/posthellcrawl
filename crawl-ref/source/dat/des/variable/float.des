@@ -1302,7 +1302,7 @@ TAGS:    no_pool_fixup no_monster_gen
 DEPTH:   Lair:4-, !Lair:$, Snake, !Snake:$, Depths, !Depths:$
 ORIENT:  float
 KMONS:   1 = slime creature w:20 / swamp worm w:50 / \
-             vampire mosquito / crocodile / swamp drake w:15
+             vampire mosquito / crocodile
 KMONS:   23 = alligator / swamp dragon / hydra
 KMONS:   45 = tentacled monstrosity / thorn hunter
 KITEM:   3 = nothing
@@ -1350,7 +1350,7 @@ DEPTH:   D:10-13, Lair:1-, !Lair:$
 ORIENT:  float
 TAGS:    transparent no_pool_fixup
 MONS:    frilled lizard / frilled lizard, crocodile, iguana
-MONS:    rime drake / swamp drake
+MONS:    rime drake / acid dragon
 MONS:    adder, water moccasin
 SUBST:   4 = 34
 SUBST:   3 = 3:20 2

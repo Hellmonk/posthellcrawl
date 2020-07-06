@@ -310,6 +310,7 @@ static monsterentry mondata[] =
     AXED_MON(MONS_BAI_SUZHEN)
     AXED_MON(MONS_BAI_SUZHEN_DRAGON)
     AXED_MON(MONS_NAGA_WARRIOR)
+    AXED_MON(MONS_SWAMP_DRAKE)
 #endif
 
 // Used for genus monsters (which are used for grouping monsters by how they
@@ -1225,19 +1226,6 @@ DUMMY(MONS_BEAR, 'h', LIGHTGREY, "bear", TILEP_MONS_BLACK_BEAR)
 
 // drakes ('k')
 DUMMY(MONS_DRAKE, 'k', LIGHTGREY, "drake", TILEP_MONS_SWAMP_DRAKE)
-
-{
-    MONS_SWAMP_DRAKE, 'k', BROWN, "swamp drake",
-    M_WARM_BLOOD | M_FLIES,
-    MR_NO_FLAGS,
-    20, MONS_DRAKE, MONS_SWAMP_DRAKE, MH_NATURAL, 20,
-    { {AT_BITE, AF_PLAIN, 14}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },
-    4, 300,
-    3, 11, MST_SWAMP_DRAKE, CE_NOXIOUS, S_ROAR,
-    I_ANIMAL, HT_LAND, 10, DEFAULT_ENERGY,
-    MONUSE_NOTHING, SIZE_LARGE, MON_SHAPE_QUADRUPED_WINGED,
-    {TILEP_MONS_SWAMP_DRAKE}, TILE_CORPSE_SWAMP_DRAKE
-},
 
 {
     MONS_RIME_DRAKE, 'k', BLUE, "rime drake",
