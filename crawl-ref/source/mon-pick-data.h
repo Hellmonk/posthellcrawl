@@ -248,28 +248,18 @@ static const pop_entry pop_lair[] =
 
 static const pop_entry pop_swamp[] =
 { // Swamp
-  {  1,  4, 2000, FLAT, MONS_NO_MONSTER }, // was plant + fungus
-  { -6,  4,  480, RISE, MONS_SLIME_CREATURE },
-  { -2,  6,  245, SEMI, MONS_SHADOW },
   {  0,  5,  600, SEMI, MONS_SPRIGGAN_RIDER },
-  {  0,  6,   40, PEAK, MONS_UGLY_THING },
   {  1,  4, 1000, FLAT, MONS_ALLIGATOR },
-  {  1,  3,  600, FLAT, MONS_SPINY_FROG },
-  {  1,  3,  400, FLAT, MONS_NO_MONSTER}, //remove some spiny frog weight
   {  1,  3,  435, FLAT, MONS_BOG_BODY },
   {  1,  3,  665, FLAT, MONS_VAMPIRE_MOSQUITO },
   {  1,  4,  915, FLAT, MONS_HYDRA },
   {  1,  4,  825, FLAT, MONS_TYRANT_LEECH },
   {  1,  4,  600, FLAT, MONS_SWAMP_DRAGON },
-  {  1,  4,  335, FLAT, MONS_NO_MONSTER }, //was insubstantial wisp
   {  1,  4,  684, FLAT, MONS_HORNET },
-  {  1,  4,  100, FALL, MONS_KOMODO_DRAGON },
   {  1,  3,  245, RISE, MONS_TENTACLED_MONSTROSITY },
   {  1,  3,  525, RISE, MONS_THORN_HUNTER },
   {  1,  3,  435, RISE, MONS_GHOST_CRAB },
   {  1,  5,  425, SEMI, MONS_SHAMBLING_MANGROVE },
-  {  1,  7,  115, PEAK, MONS_BLINK_FROG },
-  {  1,  7,  115, SEMI, MONS_VERY_UGLY_THING },
   {  1,  4,  525, RISE, MONS_SPRIGGAN_DRUID },
   {  3,  7,   52, RISE, MONS_SPRIGGAN_AIR_MAGE},
   { 0,0,0,FLAT,MONS_0 }
