@@ -260,6 +260,7 @@ static const pop_entry pop_swamp[] =
   {  1,  3,  525, RISE, MONS_THORN_HUNTER },
   {  1,  3,  435, RISE, MONS_GHOST_CRAB },
   {  1,  5,  425, SEMI, MONS_SHAMBLING_MANGROVE },
+  {  1,  4,  300, FLAT, MONS_SPRIGGAN_ASSASSIN },
   {  1,  4,  525, RISE, MONS_SPRIGGAN_DRUID },
   {  3,  7,   52, RISE, MONS_SPRIGGAN_AIR_MAGE},
   { 0,0,0,FLAT,MONS_0 }

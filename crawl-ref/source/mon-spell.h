@@ -1982,17 +1982,24 @@ static const mon_spellbook mspell_list[] =
       }
     },
     
-    // spellbook for monsters that shoot arrows at things
+    // spellbook for monsters who shoot arrows at things
     {  MST_ARCHER,
       {
        { SPELL_SHOOT_ARROW, 190, MON_SPELL_NATURAL },
       }
     },
     
-    // spellbook for monsters that throw big rocks
+    // spellbook for monsters whom throw big rocks
     {  MST_ROCKS,
       {
        { SPELL_THROW_BOULDER, 175, MON_SPELL_NATURAL },
+      }
+    },
+    
+    // spellbook for monsters whomst fire curare darts
+    {  MST_CURARE,
+      {
+       { SPELL_CURARE_DART, 50, MON_SPELL_NATURAL },
       }
     },
 

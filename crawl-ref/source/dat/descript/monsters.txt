@@ -2160,6 +2160,10 @@ spriggan air mage
 
 A magically adept spriggan blessed with the secrets of the winds.
 %%%%
+spriggan assassin
+
+An evasive spriggan with a deadly supply of curare.
+%%%%
 spriggan berserker
 
 A relatively mighty spriggan that plunges recklessly into combat.
