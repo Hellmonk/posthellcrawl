@@ -141,15 +141,9 @@ function sroom_morgue(e)
                  .. "fire dragon corpse / fire dragon skeleton"
         bodies_chance = 40
     elseif you.in_branch("Coc") then
-        mons[5] = "hydra zombie w:3 / hydra simulacrum w:3 / "
-                 .. "alligator snapping turtle zombie w:2 / "
-                 .. "alligator snapping turtle skeleton w:2"
+        mons[5] = "hydra zombie w:3 / hydra simulacrum w:3"
         mons[6] = "freezing wraith w:7 / bog body w:3"
-        bodies = "frost giant corpse / frost giant skeleton / "
-                 .. "ice dragon corpse / ice dragon skeleton / "
-                 .. "alligator snapping turtle corpse / "
-                 .. "alligator snapping turtle skeleton / "
-                 .. "hydra corpse / hydra skeleton"
+        bodies = "frost giant corpse / frost giant skeleton"
         bodies_chance = 40
     elseif you.in_branch("Dis") then
         mons[5] = "iron troll zombie w:2 / iron troll skeleton w:2 / "

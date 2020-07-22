@@ -151,7 +151,7 @@ KMONS:   1 = ice fiend
 KMONS:   2 = blizzard demon
 KMONS:   34 = ice devil
 KMONS:   56 = reaper / cool robin w:5
-KMONS:   7 = alligator snapping turtle skeleton / anaconda simulacrum / \
+KMONS:   7 = anaconda simulacrum / \
          golden dragon simulacrum w:5 / iron troll simulacrum w:5 / hydra simulacrum
 KMONS:   0 = skeletal warrior
 SUBST:   l = w, W = .

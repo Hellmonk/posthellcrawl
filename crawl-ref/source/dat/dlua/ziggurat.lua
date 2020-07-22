@@ -479,7 +479,7 @@ mset_if(depth_ge(14), with_props(spec_fn(function ()
          "greater naga w:" .. e + 2 .. " / guardian serpent w:8 / " ..
          "hydra w:5 / swamp dragon w:5 / tentacled monstrosity w:" .. e .. " / " ..
          "merfolk aquamancer w:6 / merfolk hunter w:" .. e - 2 .. " / " ..
-         "alligator snapping turtle w:6 / ghost moth w:" .. e - 2 .. " / " ..
+         "ghost moth w:" .. e - 2 .. " / " ..
          "emperor scorpion w:8 / moth of wrath w:4"
 end), { weight = 5 }))
 
