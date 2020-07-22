@@ -3728,6 +3728,7 @@ MONS_ANTIMATTER_ELF,
     MONS_ENCHANTER,
     MONS_FOXFIRE,
     MONS_PHASE_BUG,
+    MONS_KOBOLD_ASSASSIN,
 #endif
 
     NUM_MONSTERS,               // used for polymorph
