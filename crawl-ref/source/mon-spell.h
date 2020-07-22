@@ -1651,6 +1651,7 @@ static const mon_spellbook mspell_list[] =
     {  MST_SONJA,
       {
        { SPELL_BLINK, 28, MON_SPELL_WIZARD },
+       { SPELL_CURARE_DART, 50, MON_SPELL_NATURAL },
       }
     },
 
