@@ -524,7 +524,7 @@ NAME:    hangedman_damned_closets
 TAGS:    no_monster_gen
 DEPTH:   Tar, !Tar:$
 ORIENT:  float
-MONS:    shadow w:6 / shadow wraith / wraith w:6
+MONS:    shadow wraith / wraith w:6
 MONS:    soul eater, tormentor / shadow demon w:12
 MONS:    patrolling lost soul
 KMONS:   56 = flayed ghost
@@ -604,7 +604,7 @@ ENDMAP
 
 NAME:    tar_old
 ORIENT:  encompass
-MONS:    patrolling Ereshkigal, reaper, shadow demon, shadow
+MONS:    patrolling Ereshkigal, reaper, shadow demon
 MONS:    lich / ancient lich, shadow dragon / death drake w:1, shadow fiend
 KMONS:   8 = ghoul
 KMONS:   9 = vampire mage / vampire knight

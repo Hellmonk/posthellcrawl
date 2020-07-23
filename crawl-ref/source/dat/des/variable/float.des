@@ -1942,7 +1942,7 @@ MONS:    phantasmal warrior / skeletal warrior / eidolon
 MONS:    vampire mage / death knight
 KMONS:   5 = Frances / vampire mage / death knight, vampire mage / death knight
 : else
-MONS:    wight / wraith / shadow
+MONS:    wight / wraith
 MONS:    skeletal warrior / necromancer
 KMONS:   5 = Josephine / skeletal warrior / necromancer, \
              skeletal warrior / necromancer

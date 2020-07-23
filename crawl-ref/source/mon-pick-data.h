@@ -68,7 +68,6 @@ static const pop_entry pop_d[] =
   { 10, 18,  335, SEMI, MONS_WRAITH },
   { 10, 18,  400, SEMI, MONS_BLINK_FROG },
   { 10, 18,  385, SEMI, MONS_ACID_DRAGON },
-  { 10, 18,  380, SEMI, MONS_SHADOW },
   { 10, 20,  400, RISE, MONS_HYDRA },
   { 10, 20,  192, PEAK, MONS_NO_MONSTER },
   { 11, 18,  235, SEMI, MONS_NO_MONSTER},
@@ -418,7 +417,6 @@ static const pop_entry pop_vaults[] =
 
 static const pop_entry pop_crypt[] =
 { // Crypt (OOD cap: 5)
-  { -3,  3,   70, PEAK, MONS_SHADOW },
   { -3,  3,   40, PEAK, MONS_WIGHT },
   { -3,  3,   45, PEAK, MONS_FLYING_SKULL },
   { -3,  3,   75, SEMI, MONS_NECROMANCER },
@@ -723,7 +721,6 @@ static const pop_entry pop_abyss[] =
   {  1,  5,   30, FALL, MONS_HUNGRY_GHOST },
   {  1,  8,   52, FALL, MONS_FLYING_SKULL },
   {  1,  8,   52, FALL, MONS_WRAITH },
-  {  1,  8,   30, FALL, MONS_SHADOW },
   {  1,  8,   21, FALL, MONS_VAMPIRE },
   {  1,  5,   40, FLAT, MONS_FREEZING_WRAITH },
   {  1,  5,   23, FLAT, MONS_SHADOW_WRAITH },

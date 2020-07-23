@@ -102,7 +102,7 @@ TAGS:    no_rotate no_monster_gen no_item_gen uniq_d_encompass
 ORIENT:  encompass
 MONS:    plant / fungus w:2
 MONS:    wolf / warg / hell hound / raiju w:4
-MONS:    shadow w:20 / wraith w:20 / shadow wraith / phantasmal warrior / \
+MONS:    wraith w:20 / shadow wraith / phantasmal warrior / \
          skeletal warrior
 MONS:    war gargoyle
 MONS:    spectral spriggan / spectral centaur / \
@@ -504,7 +504,7 @@ NAME: grunt_profane_temple_tar
 TAGS: grunt_profane_temple no_monster_gen
 : grunt_profane_halls_setup(_G)
 NSUBST: 4 = 8:4 / *:., 5 = 1:6 / *:5
-KMONS: 4 = shadow / wraith / flying skull
+KMONS: 4 = wraith / flying skull
 KMONS: 5 = soul eater
 KMONS: 6 = reaper w:18 / lich w:5 / bone dragon w:4
 KFEAT: A = stone_arch

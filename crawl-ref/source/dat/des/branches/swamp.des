@@ -949,7 +949,7 @@ ENDMAP
 
 NAME:    st_shrine_of_shade
 DEPTH:   Swamp, !Swamp:$
-MONS:    bog body w:20 / ghoul w:5 / nothing w:25, shadow
+MONS:    bog body w:20 / ghoul w:5 / nothing w:25, shadow wraith
 KMONS:   P = withered plant
 SUBST:   p = Pp, p = PP., o = P..
 MAP
@@ -1387,7 +1387,7 @@ DEPTH:   Swamp:2-, !Swamp:$
 ORIENT:  south
 WEIGHT:  5
 MONS:    spectral hydra / spectral swamp dragon, death drake, necromancer
-MONS:    bog body w:8 / w:5 shadow / w:5 wraith / w:3 phantasmal warrior / \
+MONS:    bog body w:8 / w:5 wraith / w:3 phantasmal warrior / \
          w:1 freezing wraith
 KMONS:   5 = bog body / spriggan zombie w:4 / troll zombie w:4
 KMONS:   6 = large abomination w:2 / swamp worm zombie / spiny frog zombie / \
@@ -1476,7 +1476,7 @@ ENDMAP
 NAME:  cheibrodos_swamp_minitomb
 TAGS:  no_item_gen no_monster_gen
 DEPTH: Swamp, !Swamp:$
-KMONS: - = bog body w:20 / troll zombie / troll skeleton / shadow w:5
+KMONS: - = bog body w:20 / troll zombie / troll skeleton
 SUBST: ' = .W
 MAP
   W@WWtW
@@ -2049,7 +2049,7 @@ NAME:    swamp_vile
 TAGS:    no_pool_fixup no_monster_gen
 PLACE:   Swamp:$
 ORIENT:  southeast
-MONS:    bog body / ugly thing, shadow / orange demon / small abomination w:2
+MONS:    bog body / ugly thing / orange demon / small abomination w:2
 MONS:    large abomination / very ugly thing / thrashing horror w:6
 MONS:    green death, hell beast, death ooze, titanic slime creature
 KMONS:   8 = hydra / swamp dragon

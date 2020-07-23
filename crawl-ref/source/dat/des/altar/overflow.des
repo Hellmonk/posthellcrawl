@@ -364,7 +364,7 @@ DEPTH: D:4-
 KFEAT: C = altar_dithmenos
 {{
   if you.absdepth() >= 14 then
-     mons("shadow")
+     mons("phantasmal warrior")
   else
      local imp_weight = 9 - you.absdepth()
      if imp_weight > 0 then
