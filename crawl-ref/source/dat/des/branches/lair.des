@@ -103,8 +103,7 @@ function beast_lair_populate_mons_small(e)
         local monster_list = {}
         if you.depth() < 4 then
             monster_list = { "porcupine", "porcupine", "iguana", "bullfrog",
-                             "wolf", "yak", "komodo dragon", "spiny frog",
-                             "crocodile" }
+                             "wolf", "yak", "komodo dragon", "spiny frog" }
         else
             monster_list = { "yak", "yak", "polar bear", "death yak",
                              "elephant", "spiny frog", "komodo dragon",
@@ -167,7 +166,7 @@ ENDMAP
 # This could probably use some randomization.
 NAME:    david_lair_generic
 TAGS:    lair_entry
-MONS:    crocodile / iguana, nothing
+MONS:    iguana, nothing
 MONS:    nothing / yak / weight:2 death yak, plant / fungus / w:20 nothing
 MONS:    elephant
 SHUFFLE: 12
@@ -213,7 +212,7 @@ NAME:    dpeg_lair_monsters
 TAGS:    lair_entry
 ORIENT:  float
 MONS:    w:100 nothing / w:40 yak / death yak
-MONS:    w:100 nothing / w:20 iguana / w:20 crocodile /\
+MONS:    w:100 nothing / w:20 iguana / w:20 yak /\
          komodo dragon / basilisk w:5
 MONS:    iguana / porcupine / hell rat / quokka / rat
 MONS:    w:90 nothing / w:30 bullfrog / blink frog / spiny frog
@@ -267,7 +266,7 @@ NAME:   minmay_lair_entry_grove
 TAGS:   lair_entry
 ORIENT: float
 MONS:   plant / bush w:2 / fungus w:2
-MONS:   crocodile / basilisk w:5
+MONS:   yak / basilisk w:5
 MONS:   yak
 MONS:   iguana
 MONS:   rat w:2 / porcupine / iguana / quokka w:1
@@ -350,7 +349,7 @@ NAME:    erik_lair_dragon
 TAGS:    lair_entry no_rotate
 ORIENT:  float
 MONS:    steam dragon / acid dragon
-MONS:    w:20 iguana / komodo dragon / crocodile / nothing
+MONS:    w:20 iguana / komodo dragon / yak / nothing
 SUBST:   ? = x.c
 SHUFFLE: %*RO
 KITEM:   R = large rock
@@ -401,7 +400,7 @@ ENDMAP
 NAME:   due_lair_maze_entry_diamond
 TAGS:   lair_entry
 MONS:   plant / fungus
-MONS:   w:100 bat / w:100 rat / w:30 iguana / crocodile /\
+MONS:   w:100 bat / w:100 rat / w:30 iguana / yak /\
         yak / nothing
 ORIENT: float
 SUBST:  . = G:20 B:15 .
@@ -441,7 +440,7 @@ NAME:   grunt_lair_entry_orc_guard_hut
 ORIENT: float
 TAGS:   lair_entry transparent
 MONS:   plant / fungus / nothing
-MONS:   w:100 bat / w:100 rat / w:30 iguana / crocodile / yak / w:20 nothing
+MONS:   w:100 bat / w:100 rat / w:30 iguana / yak / yak / w:20 nothing
 MONS:   patrolling orc warrior
 KFEAT:  O = enter_lair
 SUBST:  D = 1:5 2:2 .
@@ -530,7 +529,7 @@ SUBST:   % = %%%%%$$$**|
 MONS:    patrolling necromancer / necromancer
 SHUFFLE: 23
 MONS:    elephant zombie w:2 / nothing
-MONS:    crocodile zombie / basilisk zombie / \
+MONS:    yak zombie / basilisk zombie / \
          komodo dragon zombie w:4 / nothing
 MAP
              wwwwwwwww
@@ -2773,7 +2772,7 @@ KMONS:  1 = rime drake / acid dragon / steam dragon
 KMONS:  2 = fire dragon
 KMONS:  3 = plant
 KMONS:  4 = basilisk / komodo dragon
-KMONS:  5 = iguana / crocodile
+KMONS:  5 = iguana / yak
 SUBST:  - = wWW...%3t554
 SUBST:  w = wwwW
 SUBST:  ? = 145*
@@ -2836,7 +2835,7 @@ KMONS:   I = death yak
 KMONS:   J = dream sheep
 # some non-set monsters right outside the vault
 # to make sure you don't miss that there's a vault here maybe
-KMONS:   K = crocodile
+KMONS:   K = yak
 KMONS:   L = iguana
 KMONS:   M = wolf
 KMONS:   N = wyvern
@@ -2988,7 +2987,7 @@ PLACE:   Lair:$
 TAGS:    patrolling no_pool_fixup no_monster_gen
 ORIENT:  float
 KMONS:   ~ = plant
-KMONS:   1 = water moccasin / crocodile / wasp / wyvern / spiny frog
+KMONS:   1 = water moccasin / yak / wasp / wyvern / spiny frog
 KMONS:   2 = elephant / komodo dragon / polar bear / rime drake
 KMONS:   3 = sea snake / manticore / hydra / wind drake / harpy
 KMONS:   4 = dire elephant

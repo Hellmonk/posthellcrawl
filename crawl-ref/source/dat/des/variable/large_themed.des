@@ -25,7 +25,7 @@ function grandhive_vaults(e, hivewallglyph)
     if you.branch() == "Lair" then
         e.kmons('0 = yak / wyvern / wolf w:8 / \
                      water moccasin w:8 / wyvern w:8 / basilisk w:8 / \
-                     crocodile / iguana w:2 / steam dragon w:2')
+                     alligator / iguana w:2 / steam dragon w:2')
         e.kmons('9 = elephant / spiny frog / rime drake / \
                      blink frog w:8 / manticore w:4 / hell rat w:4')
         e.kmons('8 = death yak w:14 / hydra / komodo dragon / \

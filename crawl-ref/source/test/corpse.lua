@@ -32,7 +32,7 @@ end
 
 -- All set up!
 ok("hydra corpse")
-ok("crocodile skeleton")
+ok("yak skeleton")
 for i = 1,100 do
   ok("any corpse", "corpse")
 end

@@ -3952,28 +3952,6 @@ xx"'1'"xx
  xx"@"xx
 ENDMAP
 
-NAME:    minmay_lizard_king
-DEPTH:   D:1-13
-MONS:    frilled lizard, iguana, crocodile, basilisk, plant
-SUBST:   6 = 61, 1 = 1.
-: if you.absdepth() > 9 then
-SUBST:   1 = 433221
-: elseif you.absdepth() > 6 then
-SUBST:   5 = 4, 1 = 32211
-: elseif you.absdepth() > 3 then
-SUBST:   5 = 3, 1 = 21
-: else
-SUBST:   5 = 2
-: end
-MAP
-  xxxxxx
-xxx6116x
-x561661xx
-xx166166x
- x666616x
- xxxxx6@
-ENDMAP
-
 NAME:    minmay_joined_circles
 DEPTH:   D:2-
 NSUBST:  ? = 1:+ / *:?

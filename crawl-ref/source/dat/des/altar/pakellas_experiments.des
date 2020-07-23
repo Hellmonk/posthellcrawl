@@ -281,41 +281,6 @@ xppppppx
 xxxxxxxx
 ENDMAP
 
-NAME:    gammafunk_pakellas_statue_experiment
-TAGS:    temple_overflow_1 temple_overflow_pakellas uniq_altar_pakellas
-TAGS:    generate_awake no_item_gen no_monster_gen no_trap_gen no_pool_fixup
-DEPTH:   D:2-
-WEIGHT:  0
-KFEAT:   g = iron_grate
-KFEAT:   _ = altar_pakellas
-: if you.depth() <= 7 then
-MONS:    iguana / jelly / crocodile / wasp / wyvern / yak / troll
-: else
-MONS:    wyvern / yak / troll / komodo dragon / ugly thing / hydra
-: end
-MONS:    obsidian statue att:neutral
-KPROP:   -lwg12 = no_tele_into
-TILE:    n = dngn_transparent_stone_green
-COLOUR:  n = lightgreen
-SUBST:   x : xcv
-MARKER:  _ = lua:portal_desc {experiment="altar"}
-MARKER:  g = lua:portal_desc {experiment="gate"}
-MARKER:  1 = lua:MonPropsMarker:new{subject="subject"}
-MARKER:  2 = lua:MonPropsMarker:new{statue="statue"}
-: pakellas_statue_experiment_setup(_G)
-MAP
-xxx+xxx
-xb...bx
-xb._.bx
-xnnnnnx
-xnl2lnx
-xn---nx
-xngggnx
-xnw1-nx
-xnnnnnx
-xxxxxxx
-ENDMAP
-
 NAME:   gammafunk_pakellas_spire_experiment
 TAGS:   temple_overflow_1 temple_overflow_pakellas uniq_altar_pakellas
 TAGS:   generate_awake no_monster_gen no_item_gen no_trap_gen no_pool_fixup
