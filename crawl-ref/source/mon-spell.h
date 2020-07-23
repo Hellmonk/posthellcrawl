@@ -356,7 +356,7 @@ static const mon_spellbook mspell_list[] =
     {  MST_BOG_BODY,
       {
        { SPELL_BOLT_OF_COLD, 28, MON_SPELL_WIZARD },
-       { SPELL_SLOW, 28, MON_SPELL_WIZARD },
+       { SPELL_FLASH_FREEZE, 28, MON_SPELL_WIZARD },
       }
     },
 
