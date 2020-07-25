@@ -156,7 +156,7 @@ ENDMAP
 
 NAME:    hangedman_research_metamorphosis
 MONS:    wolf spider, ice beast, vampire bat, hog
-MONS:    porcupine
+MONS:    yak
 KMONS:   D = fire dragon
 COLOUR:  .0123456D = lightmagenta
 FTILE:   .n+0123456D = floor_nerves

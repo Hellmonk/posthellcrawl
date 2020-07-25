@@ -1765,8 +1765,6 @@ int player_movement_speed()
         mv = 5; // but allowed minimum is six
     else if (you.form == TRAN_PIG)
         mv = 7;
-    else if (you.form == TRAN_PORCUPINE)
-        mv = 8;
     else if (you.fishtail && you.in_water())
         mv = 6;
 
@@ -6171,8 +6169,7 @@ int player::res_constrict() const
 {
     if (is_insubstantial())
         return 3;
-    if (form == TRAN_PORCUPINE
-        || get_mutation_level(MUT_SPINY))
+    if (get_mutation_level(MUT_SPINY))
     {
         return 3;
     }
@@ -7068,11 +7065,10 @@ bool player::polymorph(int pow)
     {
         // Whole-body transformations only; mere appendage doesn't seem fitting.
         f = random_choose_weighted(
-            120, TRAN_BAT,
-            120, TRAN_FUNGUS,
-            120, TRAN_PIG,
-            120, TRAN_TREE,
-            120, TRAN_PORCUPINE,
+            150, TRAN_BAT,
+            150, TRAN_FUNGUS,
+            150, TRAN_PIG,
+            150, TRAN_TREE,
              20, TRAN_SPIDER,
              20, TRAN_ICE_BEAST,
               5, TRAN_STATUE,

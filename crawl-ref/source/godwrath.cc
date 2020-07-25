@@ -1301,8 +1301,7 @@ static void _jiyva_transform()
     const transformation_type form = random_choose(TRAN_BAT,
                                                    TRAN_FUNGUS,
                                                    TRAN_PIG,
-                                                   TRAN_TREE,
-                                                   TRAN_PORCUPINE);
+                                                   TRAN_TREE);
 
     if (transform(random2(you.penance[god]) * 2, form, true))
         you.transform_uncancellable = true;

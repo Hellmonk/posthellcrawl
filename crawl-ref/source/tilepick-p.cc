@@ -445,7 +445,6 @@ tileidx_t tileidx_player()
     case TRAN_BAT:       ch = TILEP_TRAN_BAT;       break;
     case TRAN_SPIDER:    ch = TILEP_TRAN_SPIDER;    break;
     case TRAN_PIG:       ch = TILEP_TRAN_PIG;       break;
-    case TRAN_PORCUPINE: ch = TILEP_MONS_PORCUPINE; break;
     // non-animals
     case TRAN_ICE_BEAST: ch = TILEP_TRAN_ICE_BEAST; break;
 #if TAG_MAJOR_VERSION == 34
