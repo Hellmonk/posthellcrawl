@@ -5000,7 +5000,7 @@ static const pop_entry _invitation_elf[] =
 static const pop_entry _invitation_vaults[] =
 { // Vaults enemies
   {  1,   1,   60, FLAT, MONS_YAKTAUR },
-  {  1,   1,   40, FLAT, MONS_IRONHEART_PRESERVER },
+  {  1,   1,   40, FLAT, MONS_VAULT_WARDEN },
   {  1,   1,   20, FLAT, MONS_VAULT_SENTINEL },
   { 0,0,0,FLAT,MONS_0 }
 };

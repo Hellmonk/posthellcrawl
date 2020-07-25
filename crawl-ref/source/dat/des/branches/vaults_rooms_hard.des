@@ -920,7 +920,7 @@ TAGS: vaults_hard vaults_orient_s patrolling no_monster_gen
 KMONS: S = vault sentinel
 KMONS: G = vault guard
 KMONS: W = vault warden
-KMONS: P = ironheart preserver
+KMONS: P = vault guard
 KMONS: C = ironbrand convoker
 SUBST: | = ||*
 MAP
@@ -1213,11 +1213,10 @@ WEIGHT: 5
 KMONS: P = human  / orc  / elf  / troll  / \
        centaur  / kobold 
 KFEAT: g = iron_grate
-KFEAT: ^ = known alarm trap
 KMONS: 1 = vault guard
 KMONS: 2 = vault warden
-KMONS: 3 = ironheart preserver / ironbrand convoker
-NSUBST: 1 = 4:1 / 1:2 / 1:3 / *:., . = 2:^ / *:.
+KMONS: 3 = ironbrand convoker
+NSUBST: 1 = 4:1 / 1:2 / 1:3 / *:., . = 2:. / *:.
 SUBST: ' = .
 KPROP: P = no_tele_into
 KMASK: P = opaque

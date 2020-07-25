@@ -472,13 +472,6 @@ static const mon_spellbook mspell_list[] =
       }
     },
 
-    {  MST_IRONHEART_PRESERVER,
-      {
-       { SPELL_INJURY_BOND, 21, MON_SPELL_WIZARD },
-       { SPELL_MINOR_HEALING, 41, MON_SPELL_WIZARD },
-      }
-    },
-
     {  MST_IRONBRAND_CONVOKER,
       {
        { SPELL_WORD_OF_RECALL, 30, MON_SPELL_WIZARD },

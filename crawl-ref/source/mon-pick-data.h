@@ -381,7 +381,6 @@ static const pop_entry pop_vaults[] =
   {  1,  6,  440, FALL, MONS_ORC_KNIGHT },
   {  1,  9,  740, FALL, MONS_VAULT_SENTINEL },
   {  1,  9,  740, FALL, MONS_IRONBRAND_CONVOKER },
-  {  1,  9,  575, FALL, MONS_IRONHEART_PRESERVER },
   {  1, 11,  510, FALL, MONS_VAULT_WARDEN },
   {  1, 10,  192, PEAK, MONS_ETTIN },
   {  1, 11,  415, FALL, MONS_YAKTAUR_CAPTAIN },

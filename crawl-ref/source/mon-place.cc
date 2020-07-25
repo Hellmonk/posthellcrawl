@@ -2106,9 +2106,6 @@ static const map<monster_type, band_set> bands_by_leader = {
     { MONS_TARANTELLA,      { {2}, {{ BAND_TARANTELLA, {1, 5} }}}},
     { MONS_VAULT_WARDEN,    { {}, {{ BAND_YAKTAURS, {2, 6}, true },
                                    { BAND_VAULT_WARDEN, {2, 5}, true }}}},
-    { MONS_IRONHEART_PRESERVER, { {}, {{ BAND_DEEP_TROLLS, {3, 6}, true },
-                                    { BAND_DEEP_ELF_HIGH_PRIEST, {3, 7}, true },
-                                    { BAND_OGRE_MAGE_EXTERN, {4, 8}, true }}}},
     { MONS_TENGU_CONJURER,  { {2}, {{ BAND_TENGU, {1, 2}, true }}}},
     { MONS_TENGU_WARRIOR,   { {2}, {{ BAND_TENGU, {1, 2}, true }}}},
     { MONS_SOJOBO,          { {}, {{ BAND_SOJOBO, {2, 3}, true }}}},
@@ -2456,12 +2453,10 @@ static const map<band_type, vector<member_possibilites>> band_membership = {
                                   {MONS_DEMONIC_CRAWLER, 2}}}},
 
     { BAND_VAULT_WARDEN,        {{{MONS_VAULT_SENTINEL, 4},
-                                  {MONS_IRONBRAND_CONVOKER, 6},
-                                  {MONS_IRONHEART_PRESERVER, 5}},
+                                  {MONS_IRONBRAND_CONVOKER, 6}},
         // one fancy pal, and a 50% chance of another
-                                {{MONS_VAULT_SENTINEL, 4},
-                                 {MONS_IRONBRAND_CONVOKER, 6},
-                                 {MONS_IRONHEART_PRESERVER, 5},
+                                {{MONS_VAULT_SENTINEL, 7},
+                                 {MONS_IRONBRAND_CONVOKER, 8},
                                  {MONS_VAULT_GUARD, 15}},
 
                                 {{MONS_VAULT_GUARD, 1}}}},
