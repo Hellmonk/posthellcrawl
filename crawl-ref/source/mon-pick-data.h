@@ -320,7 +320,7 @@ static const pop_entry pop_spider[] =
   {  1,  5,  155, SEMI, MONS_MOTH_OF_WRATH },
   {  1,  8,  300, SEMI, MONS_ENTROPY_WEAVER },
   {  1,  8,  200, PEAK, MONS_GHOST_MOTH },
-  {  1,  4,   12, FLAT, MONS_MELIAI },
+  {  1,  4,  120, FLAT, MONS_MELIAI },
   {  1, 10,  260, PEAK, MONS_SPARK_WASP },
   { 0,0,0,FLAT,MONS_0 }
 };
