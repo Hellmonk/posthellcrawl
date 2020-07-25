@@ -444,9 +444,6 @@ NORETURN static void _launch_game()
         case DIFFICULTY_NORMAL:
         	msg::stream << "Normal";
         	break;
-        case DIFFICULTY_SPEEDRUN:
-        	msg::stream << "Speedrun";
-        	break;
         default:
             msg::stream << "Buggy";
         	break;
@@ -2396,7 +2393,6 @@ static void _prep_input()
 
     if (you.seen_portals)
     {
-        ASSERT(crawl_state.difficulty == DIFFICULTY_SPEEDRUN);
         if (you.seen_portals == 1)
             mprf("You have a vision of a gate.");
         else

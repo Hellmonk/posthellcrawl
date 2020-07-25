@@ -599,7 +599,6 @@ bool choose_game(newgame_def& ng, newgame_def& choice,
     {
         case DIFFICULTY_CASUAL:
         case DIFFICULTY_NORMAL:
-        case DIFFICULTY_SPEEDRUN:
             ng.difficulty = choice.difficulty;
             break;
         default:
@@ -1867,12 +1866,6 @@ static bool _choose_difficulty(newgame_def& ng, newgame_def& ng_choice,
 			tmp->add_hotkey('c');
 			tmp->set_id(DIFFICULTY_CASUAL);
 			text += "c - Casual";
-			break;
-        case 2:
-			tmp->set_fg_colour(RED);
-			tmp->add_hotkey('s');
-			tmp->set_id(DIFFICULTY_SPEEDRUN);
-			text += "s - Speedrun";
 			break;
 		}
 

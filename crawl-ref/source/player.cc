@@ -1251,8 +1251,6 @@ int player_mp_regen()
         multiplier += 100;
     if (player_equip_unrand(UNRAND_ETHERIC_CAGE))
         multiplier += 100;
-    if (crawl_state.difficulty == DIFFICULTY_SPEEDRUN)
-	    multiplier += 50;
     if(you.get_mutation_level(MUT_OUT_OF_LOS_MPREGEN) && !there_are_monsters_nearby(true))
         multiplier *= 2 + you.get_mutation_level(MUT_OUT_OF_LOS_MPREGEN);
 
@@ -2505,7 +2503,7 @@ void gain_exp(unsigned int exp_gained, unsigned int* actual_gain)
 	
     //for difficulty levels other than normal,
     //multiply both exp gain and skill exp (but don't multiply xp-gated effects)
-    if (crawl_state.difficulty == DIFFICULTY_CASUAL || crawl_state.difficulty == DIFFICULTY_SPEEDRUN)
+    if (crawl_state.difficulty == DIFFICULTY_CASUAL)
     {
 	    exp_gained *= 2;
         skill_xp *= 2;

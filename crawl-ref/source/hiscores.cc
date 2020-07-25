@@ -1869,9 +1869,6 @@ string scorefile_entry::difficulty_name() const
     case DIFFICULTY_NORMAL:
         result = "NORMAL";
 		break;
-    case DIFFICULTY_SPEEDRUN:
-        result = "SPEED";
-        break;
 	default:
 		result = "BUGGY";
 		break;
@@ -1931,8 +1928,7 @@ scorefile_entry::character_description(death_desc_verbosity verbosity) const
 
     desc += wiz_mode ? ") *WIZ*" : 
          explore_mode ? ") *EXPLORE*" : 
-         difficulty == DIFFICULTY_CASUAL ? ") *CASUAL*" : 
-         difficulty == DIFFICULTY_SPEEDRUN ? ") *SPEED*" : ")";
+         difficulty == DIFFICULTY_CASUAL ? ") *CASUAL*" : ")";
     desc += _hiscore_newline_string();
 
     if (verbose)

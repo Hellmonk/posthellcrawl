@@ -1202,11 +1202,7 @@ void player_reacts()
     }
 	
     // doom clock
-    if (crawl_state.difficulty == DIFFICULTY_SPEEDRUN && env.turns_on_level == 649)
-    {
-        mprf(MSGCH_WARN, "You feel yourself begin to rot away!");
-    }
-    else if (crawl_state.difficulty == DIFFICULTY_NORMAL && env.turns_on_level == 2499
+    if (crawl_state.difficulty == DIFFICULTY_NORMAL && env.turns_on_level == 2499
         && !player_in_branch(BRANCH_ABYSS))
     {
 		mprf(MSGCH_WARN, "You feel the dungeon grow hostile. You need to %s quickly!",

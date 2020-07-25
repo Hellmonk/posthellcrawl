@@ -188,7 +188,6 @@ enum game_difficulty_level
 	DIFFICULTY_ASK = -1,
 	DIFFICULTY_CASUAL = 0,
 	DIFFICULTY_NORMAL = 1,
-    DIFFICULTY_SPEEDRUN = 2,
 };
 
 enum lang_t
